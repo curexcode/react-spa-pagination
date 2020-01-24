@@ -1,0 +1,8 @@
+.numbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: dotted;
+    margin: 8px;
+    padding: 5px;
+}
