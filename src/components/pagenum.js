@@ -8,7 +8,7 @@ class PageNum extends Component{
     render(){
         return (
             <div className="numbox">
-                <a href={this.props.num} onClick={(e) => this.props.getPageNum(this.props.num)}> {this.props.num}</a>
+                <NavLink  to={String(this.props.num)} onClick={(e) => this.props.getPageNum(this.props.num)}> {this.props.num}</NavLink>
             </div>
         );
     }
